@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border-bottom: 1px solid #fff;
+  outline: 0;
+}
+
+.container {
+  min-width: fit-content;
+  width: 100vw;
+  min-height: fit-content;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("./assets/nature-bg-3050.jpg");
+  background-position: center;
+  background-size: cover;
+
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.form-box {
+  min-width: 250px;
+  max-width: 400px;
+  width: 100%;
+  min-height: 500px;
+
+  padding: 40px;
+  padding-top: 55px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-box h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.form span {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.form-field {
+  width: 100%;
+  height: 50px;
+
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.form-input {
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+
+.form-btn {
+  background-color: rgb(0, 200, 0);
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.form-btn:focus {
+  border: 0;
+}
+
+.form a:last-child {
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
