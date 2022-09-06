@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
+  <script src="./script.js" defer></script>
   <title>Login form</title>
 </head>
 
@@ -21,20 +22,20 @@
     <div class="form-box">
       <h1>Login</h1>
 
-      <form action="" class="form">
-        <span>
+      <form action="" class="form" id="form">
+        <div>
           <label for="username">
             Username
           </label>
           <input type="text" id="username" class="form-input form-field">
-        </span>
-        <span>
+        </div>
+        <div>
           <label for="password">
             Password
           </label>
           <input type="password" id="password" class="form-input form-field">
-        </span>
-        <input type="submit" value="Login" class="form-btn form-field">
+          <input type="submit" value="Login" class="form-btn form-field">
+        </div>
         <a href="#" class="forgot-password">Forgot Password?</a href="#">
       </form>
     </div>
